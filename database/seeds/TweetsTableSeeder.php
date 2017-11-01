@@ -28,6 +28,7 @@ class TweetsTableSeeder extends Seeder
             'body' => 'Debian Escritorio (Gnome) 9.2.1 en https://descargarmaquinasvirtuales.com/distribuciones/debian/',
         ]);
         DB::table('tweets')->insert([
+            'prefix' => 'Máquina virtual en formato OVA',
             'body' => 'Debian Servidor 9.2.1 en https://descargarmaquinasvirtuales.com/distribuciones/debian/',
         ]);
         DB::table('tweets')->insert([

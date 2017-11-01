@@ -1,1 +1,2 @@
 *.sqlite
+!laravel-twitter-bot.sqlite
