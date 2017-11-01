@@ -50,6 +50,12 @@ touch database/laravel-twitter-bot.sqlite
 php artisan migrate:refresh --seed
 ```
 
+- Create the .env file
+
+```shell
+cp .env.example .env
+```
+
 - Add the 4 keys from the Twitter app in the .env file.
 
 - Add the scheduler in the cron
