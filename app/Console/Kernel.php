@@ -26,7 +26,7 @@ class Kernel extends ConsoleKernel
     {
          $schedule->command('ltb:sendRandomTweet')
                  ->hourly()
-//                 ->between('8:00', '20:00')
+                 ->between('8:00', '20:00')
                  ->timezone('Europe/Madrid');
     }
 
