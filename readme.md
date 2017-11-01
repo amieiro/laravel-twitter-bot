@@ -38,6 +38,12 @@ composer install
     
 - Modify the seeder if you need to change it: edit the database/seeds/TweetsTableSeeder.php file.
 
+- Create the database
+
+```shell
+touch database/laravel-twitter-bot.sqlite
+```
+
 - Migrate the database with the seeder
 
 ```shell
