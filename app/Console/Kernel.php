@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        'App\Console\Commands\SendTweets',
     ];
 
     /**
@@ -24,8 +24,10 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+         $schedule->command('ltb:sendRandomTweet')
+                 ->hourly()
+//                 ->between('8:00', '20:00')
+                 ->timezone('Europe/Madrid');
     }
 
     /**

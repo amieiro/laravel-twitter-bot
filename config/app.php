@@ -167,6 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
+        NotificationChannels\Twitter\TwitterServiceProvider::class,
 
         /*
          * Application Service Providers...
