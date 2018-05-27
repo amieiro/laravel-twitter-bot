@@ -101,6 +101,16 @@ class TweetsTableSeeder extends Seeder
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
         DB::table('tweets')->insert([
+            'body' => 'Ubuntu Escritorio (Gnome) 18.04 LTS en https://descargarmaquinasvirtuales.com/distribuciones/ubuntu/',
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('tweets')->insert([
+            'body' => 'Ubuntu Servidor 18.04 LTS en https://descargarmaquinasvirtuales.com/distribuciones/ubuntu/',
+            'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+        DB::table('tweets')->insert([
             'body' => 'Ubuntu Escritorio (Gnome) 17.10 en https://descargarmaquinasvirtuales.com/distribuciones/ubuntu/',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
